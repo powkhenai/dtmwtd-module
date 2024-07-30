@@ -7,5 +7,5 @@ requires: [nice_nano_v2]
 features:
   - keys
 siblings:
-  - bat_board_left
-  - bat_board_right
+  - dtmwtd_left
+  - dtmwtd_right
