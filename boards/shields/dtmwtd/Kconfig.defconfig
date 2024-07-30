@@ -1,0 +1,19 @@
+if SHIELD_DTMWTD_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Dont Tell Me"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
+    default y
+
+endif
+
+if SHIELD_DTMWTD_LEFT || SHIELD_DTMWTD_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

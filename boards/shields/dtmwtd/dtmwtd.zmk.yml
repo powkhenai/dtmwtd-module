@@ -1,0 +1,11 @@
+file_format: "1"
+id: dtmwtd
+name: Dont Tell Me
+type: shield
+url: https://github.com/powkhenai
+requires: [nice_nano_v2]
+features:
+  - keys
+siblings:
+  - bat_board_left
+  - bat_board_right
